@@ -1,8 +1,4 @@
 <html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poluição do Ar</title>
-    <link rel="stylesheet" href="file:///tmp/guest-g6dqxp/Downloads/styles.css">
 </head>
 <body>
     <header>
@@ -36,74 +32,4 @@
     </section>
     <footer>
         <p>© 2025, Todos os direitos reservados.</p>
-        <button onclick="showAlert()">Saiba mais sobre a poluição do ar</button>
-    </footer>
-<section class="air-pollution-section">
-  <div class="image-container">
-    <img src="poluicao1.jpg" alt="Fumaça saindo de chaminés industriais">
-    <div class="image-caption">Emissões industriais contribuindo para a poluição do ar.</div>
-  </div>
-
-  <div class="gallery">
-    <img src="cidade-poluição.jpg" alt="Cidade coberta por smog">
-    <img src="trânsito-pesado.jpg" alt="Trânsito intenso com poluição visível">
-    <img src="queimada.jpg" alt="Área rural com fumaça de queimadas">
-  </div>
-</section>
-/* Estilo geral para imagens */
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  margin: 20px 0;
-  transition: transform 0.3s ease;
-}
-
-img:hover {
-  transform: scale(1.05);
-}
-
-/* Container de imagens com legenda */
-.image-container {
-  text-align: center;
-  margin: 30px 0;
-}
-
-.image-container img {
-  width: 90%;
-  max-width: 600px;
-}
-
-.image-caption {
-  font-size: 0.95rem;
-  color: #555;
-  margin-top: 8px;
-  font-style: italic;
-}
-
-/* Galeria de imagens lado a lado */
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  margin: 40px 0;
-}
-
-.gallery img {
-  width: 300px;
-  height: auto;
-}
-
-/* Fundo temático para a seção de poluição do ar */
-.air-pollution-section {
-  background-color: #f0f4f8;
-  padding: 40px 20px;
-  border-left: 6px solid #333;
-}
-
-    <script src="file:///tmp/guest-g6dqxp/Downloads/script.js"></script>
-
-
 </body></html>
